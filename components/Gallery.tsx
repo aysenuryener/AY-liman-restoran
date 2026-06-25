@@ -3,11 +3,13 @@ import { imageExists } from "@/lib/images";
 
 const galleryImages = [
   { src: "/images/hero.jpg", alt: "AY Liman mekan görünümü" },
-  { src: "/images/mekan-kose.jpg", alt: "İki kişilik köşe masa" },
-  { src: "/images/yemek-meze.jpg", alt: "Meze sofrası" },
-  { src: "/images/yemek-balik.jpg", alt: "Taş fırında levrek" },
-  { src: "/images/yemek-yag.jpg", alt: "Zeytinyağı dökülürken yakın çekim" },
-  { src: "/images/marka-natürmort.jpg", alt: "AY Liman sofra natürmortu" },
+  { src: "/images/oturma.jpg", alt: "Oturma alanı" },
+  { src: "/images/meze.jpg", alt: "Meze sofrası" },
+  { src: "/images/ana-yemek.jpg", alt: "Ana yemek tabağı" },
+  { src: "/images/detay.jpg", alt: "Mutfak detay" },
+  { src: "/images/tatli.jpg", alt: "Tatlı tabağı" },
+  { src: "/images/naturmort.jpg", alt: "AY Liman sofra natürmortu" },
+  { src: "/images/masa-menu.jpg", alt: "Masa ve menü" },
 ];
 
 export function Gallery() {

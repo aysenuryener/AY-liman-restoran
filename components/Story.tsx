@@ -3,15 +3,15 @@ import { site } from "@/data/site";
 import { imageExists } from "@/lib/images";
 
 export function Story() {
-  const exists = imageExists("/images/mekan-kose.jpg");
+  const exists = imageExists("/images/oturma.jpg");
 
   return (
     <section className="bg-cream px-6 py-20 sm:py-28">
       <div className="mx-auto grid max-w-5xl gap-10 sm:grid-cols-2 sm:items-center sm:gap-16">
         <div className="relative aspect-[4/5] overflow-hidden rounded-xl">
           <SiteImage
-            src="/images/mekan-kose.jpg"
-            alt="AY Liman'da iki kişilik köşe masa"
+            src="/images/oturma.jpg"
+            alt="AY Liman oturma alanı"
             exists={exists}
             fill
             sizes="(min-width: 640px) 50vw, 100vw"
