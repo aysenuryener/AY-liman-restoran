@@ -158,7 +158,7 @@ export const menu: { category: string; items: MenuItem[] }[] = [
         price: 90,
         calories: 110,
         allergens: [],
-        image: "/images/naturmort.jpg",
+        image: "/images/icecekler.jpg",
         tags: ["vejetaryen", "glutensiz"],
       },
       {
@@ -169,7 +169,7 @@ export const menu: { category: string; items: MenuItem[] }[] = [
         price: 70,
         calories: 20,
         allergens: [],
-        image: "/images/naturmort.jpg",
+        image: "/images/icecekler.jpg",
         tags: ["vejetaryen", "glutensiz"],
       },
       {
@@ -180,7 +180,7 @@ export const menu: { category: string; items: MenuItem[] }[] = [
         price: 100,
         calories: 30,
         allergens: [],
-        image: "/images/naturmort.jpg",
+        image: "/images/icecekler.jpg",
       },
       {
         id: "taze-portakal-suyu",
@@ -190,7 +190,7 @@ export const menu: { category: string; items: MenuItem[] }[] = [
         price: 110,
         calories: 140,
         allergens: [],
-        image: "/images/naturmort.jpg",
+        image: "/images/icecekler.jpg",
         tags: ["vejetaryen", "glutensiz"],
       },
     ],
