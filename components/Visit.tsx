@@ -48,11 +48,11 @@ export function Visit() {
             </div>
           </dl>
         </div>
-        <div className="overflow-hidden rounded-xl">
+        <div className="relative min-h-[320px] overflow-hidden rounded-xl">
           <iframe
             src={site.mapEmbedUrl}
             title={`${site.name} konum haritası`}
-            className="h-full min-h-[320px] w-full border-0"
+            className="absolute inset-0 h-full w-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
