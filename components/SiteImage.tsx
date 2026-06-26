@@ -26,17 +26,11 @@ export function SiteImage({
   if (!exists) {
     return (
       <div
-        className={`flex items-center justify-center border border-terracotta/20 bg-cream-soft ${
-          fill ? "absolute inset-0" : ""
-        } ${className}`}
+        className={`bg-terracotta/15 ${fill ? "absolute inset-0" : ""} ${className}`}
         style={!fill ? { width, height } : undefined}
         role="img"
         aria-label={alt}
-      >
-        <span className="px-4 text-center text-xs uppercase tracking-widest text-ink/35">
-          {alt}
-        </span>
-      </div>
+      />
     );
   }
 
